@@ -21,12 +21,11 @@ class IbtdiMyFatoorah extends IbtdiMyFatoorahService
     public function createInvoice(array $data)
     {
         try {
-            $this->endpoint = 'SendPayment';
+            $this->endPoint = 'SendPayment';
 
             /**
              *  @var Illuminate\Http\Client\Response $response
              */
-            dd($this->getFullUrl());
 
             $response = $this->getClient()->post($this->getFullUrl(), $data);
 

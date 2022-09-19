@@ -176,7 +176,7 @@ abstract class  IbtdiMyFatoorahService
             throw new \Exception("Endpoint is not exists");
         }
 
-        return $this->endpoint;
+        return $this->endPoint;
     }
 
     /**
