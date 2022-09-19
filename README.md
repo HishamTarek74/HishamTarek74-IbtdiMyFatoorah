@@ -8,7 +8,11 @@ laravel myfatoorah is a php package written by [Hisham Tarek](https://github.com
 - Change the token on the fly
 
 # Installation Guide
-The package is compatible with laravel ^6.0|^7.0|^8.0|^9.0 so you don't need to set providers or aliases for the package, we're using laravel auto discovery
+At laravel project install package using composer
+```
+composer require hesham.tarek/ibtdi-myfatoorah
+```
+The package is compatible with laravel ^6.0|^7.0|^8.0|^9.0 so you don't need to set providers or aliases for the package
 
 ## Configuration
 To publish config run
