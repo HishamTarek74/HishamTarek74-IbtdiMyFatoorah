@@ -1,0 +1,34 @@
+{
+    "name": "hesham.tarek/ibtdi-myfatoorah",
+    "description": "ibtdi myfatoorah integration apis",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "HishamTarek\\IbtdiMyFatoorah\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "hisham tarek",
+            "email": "heshamtarek.7222@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^6.0|^7.0",
+        "illuminate/http": "^6.0|^7.0|^8.0|^9.0",
+        "illuminate/support": "^6.0|^7.0|^8.0|^9.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "HishamTarek\\IbtdiMyFatoorah\\IbtdiMyFatoorahServiceProvider"
+            ],
+            "aliases": {
+                "IbtdiMyFatoorah": "HishamTarek\\IbtdiMyFatoorah\\Facades\\IbtdiMyFatoorah"
+            }
+        }
+    }
+}
