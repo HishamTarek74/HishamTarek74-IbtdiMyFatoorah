@@ -7,7 +7,7 @@ laravel myfatoorah is a php package written by [Hisham Tarek](https://github.com
 - Check that payment is success or not
 - Change the token on the fly
 
-```
+# Installation Guide
 The package is compatible with laravel ^6.0|^7.0|^8.0|^9.0 so you don't need to set providers or aliases for the package, we're using laravel auto discovery
 
 ## Configuration
@@ -43,7 +43,7 @@ Route::get('payment/error', [\App\Http\Controllers\MyFatoorahController::class, 
  ```
 At the controller, you can get the data from payment page at [DOCS](https://myfatoorah.readme.io/docs/send-payment-offsite)
  ```
- use HishamTarek\IbtdiMyFatoorah\IbtdiMyFatoorahServiceProvider;
+ use AymanElmalah\MyFatoorah\Facades\MyFatoorah;
  
  public function index() {
       $data = [

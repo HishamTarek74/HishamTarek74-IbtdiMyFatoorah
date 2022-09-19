@@ -26,6 +26,7 @@ class IbtdiMyFatoorah extends IbtdiMyFatoorahService
             /**
              *  @var Illuminate\Http\Client\Response $response
              */
+            dd($this->getFullUrl());
 
             $response = $this->getClient()->post($this->getFullUrl(), $data);
 
