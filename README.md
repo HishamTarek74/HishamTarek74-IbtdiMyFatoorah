@@ -47,7 +47,7 @@ Route::get('payment/error', [\App\Http\Controllers\MyFatoorahController::class, 
  ```
 At the controller, you can get the data from payment page at [DOCS](https://myfatoorah.readme.io/docs)
  ```
- use AymanElmalah\MyFatoorah\Facades\MyFatoorah;
+ use HishamTarek\IbtdiMyFatoorah\Facades\IbtdiMyFatoorah;
  
  public function index() {
       $data = [
