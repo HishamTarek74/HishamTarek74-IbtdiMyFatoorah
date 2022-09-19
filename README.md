@@ -41,7 +41,7 @@ Route::get('payment', [\App\Http\Controllers\MyFatoorahController::class, 'index
 Route::get('payment/callback', [\App\Http\Controllers\MyFatoorahController::class, 'callback']);
 Route::get('payment/error', [\App\Http\Controllers\MyFatoorahController::class, 'error']);
  ```
-At the controller, you can get the data from payment page at [DOCS](https://myfatoorah.readme.io/docs/send-payment-offsite)
+At the controller, you can get the data from payment page at [DOCS](https://myfatoorah.readme.io/docs)
  ```
  use AymanElmalah\MyFatoorah\Facades\MyFatoorah;
  
